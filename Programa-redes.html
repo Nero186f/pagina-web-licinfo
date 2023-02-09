@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <link href="Programa-redesCSS.css" type="text/css" rel="stylesheet" >
+	  <link href="menuCSS.css" type="text/css" rel="stylesheet" >
+	  <link href="Programa-AspGeneralesMenuCSS2.css" type="text/css" rel="stylesheet" >
+	  <link href="fechaCSS.css" type="text/css" rel="stylesheet" >
+		<link href="eventosIMG.css" type="text/css" rel="stylesheet" >
+	  <link href="barraBusquedaCSS.css" type="text/css" rel="stylesheet" >
+		<link href="ProgAspGenMenu.css" type="text/css" rel="stylesheet">
+	  <script src="barraBusquedaJava.js"> </script>
+	</head>
+
+
+	<body id="fondo"> <!-- fondo principal-->
+
+				<header>
+				</header>
+
+
+<!-- Imagen principal del programa -->
+			<section id = "imagenPrograma2" style="position:absolute; top:37px; left:315px;">
+				<img src="Imagenes/ImagenPrograma.jpg">
+			</section>
+<!-- FIN Imagen principal del programa -->
+
+
+<!-- Menu principal 1 color gris -->
+		<section style="position:absolute; top:-30px; left:315px;">
+			<nav class="navegacion">
+				<ul class="menu">
+					<li style="position:absolute; left:170px;">
+						<a href="#">Institucional</a>
+						<ul class="submenu" style="left:50px;">
+							<li ><a href="https://www.udenar.edu.co" target="_blank">Universidad de Nariño</a></li>
+							<li><a href="https://dematyes.udenar.edu.co" target="_blank">Departamento de Estadistica y Matematicas</a></li>
+						</ul>
+						<a style="position:absolute; top:-1px; left:-10px;"> | </a> <!-- este es el ceparador de la fecha y el menu -->
+					</li>
+
+					<li style="left:280px;">
+						<a href="#">Recursos</a>
+						<ul class="submenu" style="left:50px;">
+							<li><a href="https://aulavirtual.udenar.edu.co" target="_blank">Aulas Virtuales COES </a></li>
+							<li><a href="http://sired.udenar.edu.co" target="_blank">Recursos Digitales Educativos</a></li>
+							<li><a href="https://search.ebscohost.com" target="_blank">Base de Datos EBSCO </a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</section>
+<!-- FIN Menu principal 1 color gris -->
+
+<!-- buscador + iconos -->
+		 <section style="position:absolute; top:15px; left:1590px;">
+			<div class="container">
+
+	  	<form action="javascript:void(0);" method="get">
+
+			<fieldset>
+
+				<ul class="toolbar clearfix" type = "button">
+
+					<li><a href="http://127.0.0.1:3000/" target = "_blank" class="fontawesome-rss"></a></li>
+					<li><a href="https://www.facebook.com/groups/81959732158/" target ="_blank" class="fontawesome-facebook"></a></li>
+					<li><a href="https://twitter.com/licinfoudenar?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3Alicinfoudenar%7Ctwgr%5EeyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3JlZnNyY19zZXNzaW9uIjp7ImJ1Y2tldCI6Im9mZiIsInZlcnNpb24iOm51bGx9LCJ0Zndfc2Vuc2l0aXZlX21lZGlhX2ludGVyc3RpdGlhbF8xMzk2MyI6eyJidWNrZXQiOiJpbnRlcnN0aXRpYWwiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3R3ZWV0X3Jlc3VsdF9taWdyYXRpb25fMTM5NzkiOnsiYnVja2V0IjoidHdlZXRfcmVzdWx0IiwidmVyc2lvbiI6bnVsbH19&ref_url=http%3A%2F%2F127.0.0.1%3A3000%2F%23" target = "_blank" class="fontawesome-twitter"></a></li>
+
+					<li><input type="search" id="search" placeholder="Buscar..."> </li>
+					<li><button type="submit" id="btn-search"><span class="fontawesome-search"></span></button></li>
+
+				</ul>
+
+			</fieldset>
+
+	  	</form>
+
+ 	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		</section>
+<!-- FIN buscador + iconos -->
+
+<!-- fecha -->
+		<section id = "fecha" style="position:absolute; top:10px; left:328px;">
+
+			<script type="text/javascript">
+				var d=new Date();
+				var dia=new Array(7);
+				dia[0]="Domingo";
+				dia[1]="Lunes";
+				dia[2]="Martes";
+				dia[3]="Miercoles";
+				dia[4]="Jueves";
+				dia[5]="Viernes";
+				dia[6]="Sabado";
+
+				var m=new Date();
+				var mes=new Array(12);
+				mes[0]="Enero";
+				mes[1]="Febrero";
+				mes[2]="Marzo";
+				mes[3]="Abril";
+				mes[4]="Mayo";
+				mes[5]="Junio";
+				mes[6]="Julio";
+				mes[7]="Agosto";
+				mes[8]="Septiembre";
+				mes[9]="Octubre";
+				mes[10]="Noviembre";
+				mes[11]="Diciembre";
+
+
+				document.write(dia[d.getDay()] + ", " + (mes[d.getMonth()]) + " " + d.getDate() + " " + d.getFullYear());
+			</script>
+
+		</section>
+<!-- FIN fecha -->
+
+
+<!-- tabla segundo fondo general color blanco -->
+		<table id = "table1" style="position:absolute; top:260px; left:315px;">
+		</table>
+<!-- FIN tabla segundo fondo general color blanco -->
+
+
+<!-- tabla color azul -->
+		<table id = "table2fondoAzul" style="position:absolute; top:260px; left:315px;">
+		</table>
+<!-- FIN tabla color azul -->
+
+<!-- tabla color azul -->
+		<table id = "table1fondoAzul" style="position:absolute; top:-3px; left:315px;">
+		</table>
+<!-- FIN tabla color azul -->
+
+
+<!-- segundo menu color negro -->
+		<section style="position:absolute; top:180px; left:315px;" id = "Menu2">
+			<nav class="navegacion2">
+				<ul class="menu2">
+					<li style="position:absolute; left:80px;">
+						<a id = "Resaltado" href="#">PROGRAMA</a>
+						<ul class="submenu2" style="position:absolute; top:50px">
+							<li><a href="Programa-AspGenerales.html" >Aspectos generales</a></li>
+							<li><a href="Programa-condiIngreso.html">Condiciones para el ingreso</a></li>
+							<li><a href="Programa-docentes.html">Docentes</a></li>
+							<li><a href="Programa-redes.html">Redes</a></li>
+						</ul>
+					</li>
+
+					<li style="left:205px;">
+						<a href="#">PLANES DE ESTUDIO</a>
+						<ul class="submenu2">
+							<li><a href="Planes-2017.html">Nuevo plan de estudios 2017</a></li>
+							<li><a href="Planes-2010.html">Plan de estudios 2010</a></li>
+						</ul>
+					</li>
+
+					<li style="left:205px;">
+						<a href="#">INVESTIGACION</a>
+						<ul class="submenu2">
+							<li><a href="https://gredis.udenar.edu.co">GREDIS</a></li>
+						</ul>
+					</li>
+
+					<li style="left:210px;">
+						<a href="#">PORTAFOLIO</a>
+					</li>
+
+					<li style="left:210px;">
+						<a href="#">PRACTICA DOCENTE</a>
+					</li>
+
+					<li style="left:210px;">
+						<a href="#">RUNIN</a>
+					</li>
+
+					<li style="left:210px;">
+						<a href="#">DOC. ESENCIALES</a>
+					</li>
+
+				</ul>
+			</nav>
+		</section>
+<!-- FIN segundo menu color negro -->
+
+
+<!-- boton casa  -->
+		<section id = "imagenPrograma" style="position:absolute; top:212px; left:327px;">
+			<button>
+				<img src="Imagenes/casaoff.png" height="45px" width="60px" onclick="location.href='index.html'">
+			</button>
+		</section>
+<!-- FIN boton casa azul -->
+
+<!-- boton INICO cadena de navegacion  + separador -->
+<section>
+		<button>
+			<a id = "textoRut" style="position:absolute; top:296px; left: 350px;" href = "index.html"> Inicio </a>
+		</button>
+
+		<a id = "textoRut" style="position:absolute; top:296px; left: 400px;"> / Redes </a>
+
+		<hr size="1.5px" color= "#ECF0F1" width = "810px" style="position:absolute; top:328px; left: 350px;"/>
+</section>
+<!-- FIN boton INICO cadena de navegacion  + separador -->
+
+
+
+<!-- AQUI SE EMPIEZA TODOO -->
+<section>
+	<table  id = "tablaAspGen" style = "position: relative; top:288px; left:350px;">
+		<tr>
+			<bd>
+				<a id = "aspGenerales" style = "position: relative; top:340px; left:365px;"> REDES </a>
+			<td>
+		</tr>
+
+		<tr>
+			<td>
+				<section id = "separador" style = "position: relative; top: 60px; left: 15px;">
+					<hr size="1.5px" color= "#ECF0F1" width = "760px" />
+				</section>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<section>
+					<a style = "position: relative; top: 60px; left: 175px;">
+						<img src="Imagenes/cropped-REPETIClogo.jpg" alt="">
+					</a>
+				</section>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<section id = "tablaDesc">
+					<a style = "position: relative; top: -70px; left: 35px;">
+						La RED REPETIC es una iniciativa de las Universidades Universidad Pedagógica Nacional (UPN), Universidad Pedagógica y Tecnológica de Colombia (UPTC), Universidad de Nariño (UDENAR) con el programa de Licenciatura en Informática, Universidad Católica de Manizales (UCM), Universidad de Córdoba (UNICÓRDOBA) y la Universidad Minuto De Dios (UNIMINUTO) con el fin de fundamentar, implementar y fortalecer la acción pedagógica del área de Tecnología e Informática en la Escuela Colombiana, mediante acciones de cooperación y divulgación pedagógica, académica, tecnológica, investigativa y de extensión que fortalezcan los programas de formación docente en los niveles de pregrado, postgrado y actualización permanente en nuestras regiones de incidencia.
+						<br>
+						<br>
+						REPETIC nace en 2003 en el marco del “Primer Encuentro Nacional de Experiencias Curriculares y de Aula en Tecnología e Informática” en la ciudad de Bucaramanga, entre los profesores Carlos Alberto Merchán Basabe (UNAD, UPN) y Myriam Cecilia Leguizamon (UPTC); a la fecha se ha realizado siete (7) encuentros nacionales, y con el ánimo de consolidar la educación en tecnología e informática en el país se ha sumado las iniciativas y aportes de otros maestros que igualmente preocupados se han sumado a la RED; ellos son, el profesor Homero Paredes quien junto con sus colegas del programa Licenciatura en Informática de la UDENAR se sumó en 2009; en 2012, las profesoras Lina Parra y Liliana Restrepo de la UCM, en 2013, los profesores Juan Carlos Quinche (UniMinuto), Flavio (UPTC, sede Duitama) y Ferley Ramos (UniCórdoba).
+					</a>
+					<section>
+			</td>
+		</tr>
+
+</table>
+</section>
+
+
+
+
+<!-- FIN AQUI SE EMPIEZA TODOO -->
+
+
+<!-- tabla color azul 5 -->
+		<table id = "table1fondoAzul5" style="position:absolute; top:1422px; left:350px;">
+		</table>
+<!-- FIN tabla color azul 5-->
+
+
+<!-- generar certificado imagen separador -->
+		<section style="position:absolute; top:300px; left:1100px;">
+			<img  style="position:absolute; top:4px; left:80px;" src="Imagenes/imgSeparador.png" height ="20px" width="400px"/>
+		</Section>
+<!-- FIN generar certificado imagen separador -->
+
+
+<!-- Tabla generar certificado  -->
+		<table id = "tableCertificados" style="position:absolute; top:326px; left:1187px;">
+			<tr>
+				<div>
+						<td>
+          		<button type = "button">
+								<img src="Imagenes/certificado.png" height ="150px" width="360px" style="position:absolute; top:14px; left:14px;"/>
+							</button>
+						</td>
+				</div>
+			</tr>
+		</table>
+<!-- FIN Tabla generar certificado -->
+
+
+<!-- tabla color azul 4 -->
+		<table id = "table1fondoAzul4" style="position:absolute; top:1107px; left:1185px;">
+		</table>
+<!-- FIN tabla color azul -->
+
+
+<!-- texto "VIDEO PROMOCIONAL" + imagen separador -->
+		<section id = "txtVideoProm" style="position:absolute; top:540px; left:1185px;">
+			<p> VIDEO PROMOCIONAL </p>
+		</section>
+<!-- fin texto "VIDEO PROMOCIONAL" + inafen separador -->
+
+
+<!-- imagen separador video promocional  -->
+	<section>
+		<img  style="position:absolute; top:544px; left:1315px;" src="Imagenes/imgSeparador.png" height ="20px" width="260px"/>
+	</section>
+<!-- FIN imagen separador video promocional  -->
+
+
+<!-- tabla y video promocional  -->
+<section>
+			<table id = "tableVideoProm" style="position:absolute; top:570px; left:1186px;">
+				<tr>
+					<div>
+							<td>
+									<iframe  style="position:absolute; top:10px; left:10px;"  height ="190px" width="366px" src="https://www.youtube.com/embed/EDMEgY_2cmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</td>
+					</div>
+				</tr>
+			</table>
+</section>
+<!-- FIN tabla y video promocional  -->
+
+
+<!-- tabla color azul 4 -->
+		<table id = "table1fondoAzul4" style="position:absolute; top:779px; left:1185px;">
+		</table>
+<!-- FIN tabla color azul -->
+
+
+<!-- texto "SIGUENOS EN TWITTER" -->
+		<section id = "txtVideoProm" style="position:absolute; top:810px; left:1185px;">
+			<p> SIGUENOS EN TWITTER </p>
+		</section>
+<!-- fin texto "SIGUENOS EN TWITTER"  -->
+
+
+<!-- imagen separador TWITTER -->
+	<section>
+		<img  style="position:absolute; top:814px; left:1325px;" src="Imagenes/imgSeparador.png" height ="20px" width="250px"/>
+	</section>
+<!-- FIN imagen separador TWITTER  -->
+
+
+<!-- tabla TWITTER  -->
+<section>
+	<div >
+			<table id = "tableTwitter" style="position:absolute; top:840px; left:1186px";>
+				<tr>
+					<div>
+							<td>
+								<a class="twitter-timeline" height ="500px" href="https://twitter.com/licinfoudenar?ref_src=twsrc%5Etfw">Tweets by licinfoudenar</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</td>
+					</div>
+				</tr>
+			</table>
+	</div>
+</section>
+<!-- FIN tabla TWITTER -->
+
+
+<!-- tabla color azul 4 -->
+		<table id = "table1fondoAzul4" style="position:absolute; top:1419px; left:1185px;">
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+<!-- FIN tabla color azul -->
+
+
+<!-- tabla color azul 4 FOOTER -->
+		<table id = "table1fondoAzulFooter" style="position:absolute; top:1480px; left:314px;">
+		</table>
+<!-- FIN tabla color azul FOOTER -->
+
+
+<footer style="position:absolute; top:1px; left:1px;">
+	<section>
+				<table id = "tablePiePag" style="position:absolute; top:1490px; left:313px;">
+					<tr>
+						<div>
+								<td style="position:absolute; top:40px; left:35px;">
+									<a id = "LicInfoFot"> LICENCIATURA EN INFORMÁTICA </a>
+								</td>
+
+								<td  id = "separadores" style="position:absolute; top:84px; left:35px;">
+										<hr size="1.5px" color= "#515A5A " width = "440px" />
+								</td>
+
+								<td id = "datosFooter" style="position:absolute; top:115px; left:40px;">
+									<a> Universidad de Nariño
+										<br>
+										Ciudad Universitaria - Calle 18 - Cr 50 Bloque 3  - Cuarto piso
+										<br>
+										Telefono: 7310327 Correo electrónico: informatica@udenar.edu.co
+										<br>
+										San Juan de Pasto - Colombia
+								</a>
+
+								<td  id = "separadores" style="position:absolute; top:250px; left:1px;">
+									<hr size="1.5px" color= "#424949" width = "1296px" />
+
+							<td id = "datosFooter"  style="position:absolute; top:280px; left:40px;">
+								<a>
+									© Copyright 2022, Todos los derechos reservados
+								</a>
+							</td>
+
+							<td id = "datosFooter"  style="position:absolute; top:280px; left:840px;">
+								<a>
+									Desarrollado por Licenciatura en Informática | Universidad de Nariño
+								</a>
+							</td>
+						</div>
+					</tr>
+				</table>
+	</section>
+
+</footer>
+	</body>
+</html>

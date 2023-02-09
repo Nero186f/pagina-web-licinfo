@@ -1,0 +1,133 @@
+<!-- texto "condiciones para el ingreso" y tabla general  -->
+<section>
+	<table id = "tablaAspGen" style = "position: relative; top:45px; left:350px;">
+		<tr>
+			<br>
+				<a id = "aspGenerales" style = "position: relative; top:310px; left:365px;"> CONDICIONES PARA EL INGRESO </a>
+			</br>
+
+			<section id = "tablaAspGen2" style = "position: relative; top: -740px; left: 369px;">
+				<table>
+
+					<tr>
+						<br> 
+		        	<center> <a id = "texto2"> Puntaje ICFES Mínimo para Inscripción, pruebas presentadas desde periodo B de 2014 </a> </center>
+						</br>
+					</tr>
+
+					<tr style = "position: relative; top: -912px; left: 30px;">
+						<td id ="espacios" style = "position: relative; left:  -22px"> <a id = "texto"> Lectura critica </a> </td>
+						<td id ="espacios" style = "position: relative; left: -24px;"> <a id = "texto"> Ciencias Sociales y Ciudadanas </a> </td>
+						<td id ="espacios" style = "position: relative; left: -26px;"> <a id = "texto"> Matemáticas </a> </td>
+						<td id ="espacios" style = "position: relative; left: -28px;"> <a id = "texto"> Ciencias naturales </a> </td>
+				  	<td id ="espacios" style = "position: relative; left: -30px;"> <a id = "texto"> Ingles </a> </td>
+					</tr>
+
+			  <tr style = "position: relative; top: -11px; left: 30px;">
+			 		<td id ="espacios2" style = "position: relative; left: -22px;"> <a id = "texto"> 40 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -24px;"> <a id = "texto"> 40 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -26px;"> <a id = "texto"> 40 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -28px;"> <a id = "texto"> 30 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -30px;"> <a id = "texto"> 30 </a> </td>
+			 </tr>
+
+			</table>
+		</section>
+		<!-- FIN tabla numero 1 -->
+
+		<!-- tabla numero 2 -->
+			<table>
+				<tr style = "position: relative; top: -12px; left: 30px;">
+					<td id ="espacios" style = "position: relative; left: -22px"> <a id = "texto"> Lectura critica </a> </td>
+					<td id ="espacios" style = "position: relative; left: -24px;"> <a id = "texto"> Ciencias Sociales y Ciudadanas </a> </td>
+					<td id ="espacios" style = "position: relative; left: -26px;"> <a id = "texto"> Matemáticas </a> </td>
+					<td id ="espacios" style = "position: relative; left: -28px;"> <a id = "texto"> Ciencias naturales </a> </td>
+				  <td id ="espacios" style = "position: relative; left: -30px;"> <a id = "texto"> Ingles </a> </td>
+				</tr>
+
+			  <tr style = "position: relative; top: -11px; left: 30px;">
+			 <td id ="espacios2" style = "position: relative; left: -22px;"> <a id = "texto"> 30 </a> </td>
+			 <td id ="espacios2" style = "position: relative; left: -24px;"> <a id = "texto"> 15 </a> </td>
+			 <td id ="espacios2" style = "position: relative; left: -26px;"> <a id = "texto"> 35 </a> </td>
+			 <td id ="espacios2" style = "position: relative; left: -28px;"> <a id = "texto"> 10 </a> </td>
+			 <td id ="espacios2" style = "position: relative; left: -30px;"> <a id = "texto"> 10 </a> </td>
+			 </tr>
+
+			</table>
+		</section>
+		<!-- FIN tabla numero 2 -->
+
+
+		<!-- tabla numero 3 -->
+		<section id = "tablaAspGen2" style = "position: relative; top: -670px; left: 369px; ">
+			<table>
+				<tr>
+					<br>
+		        <center> <a id = "texto2"> Puntaje ICFES anterior al periodo B de 2014, Mínimo para Inscripción </a> </center>
+					</br>
+				</tr>
+
+				<tr style = "position: relative; top: -12px; left: 30px;">
+					<td id ="espacios3" style = "position: relative; left:  -22px"> <a id = "texto"> Lenguaje </a> </td>
+					<td id ="espacios3" style = "position: relative; left: -24px;"> <a id = "texto">  Matemáticas </a> </td>
+					<td id ="espacios3" style = "position: relative; left: -26px;"> <a id = "texto"> Sociales </a> </td>
+					<td id ="espacios3" style = "position: relative; left: -28px;"> <a id = "texto"> Filosofía </a> </td>
+					<td id ="espacios3" style = "position: relative; left: -30px;"> <a id = "texto"> Biología </a> </td>
+					<td id ="espacios3" style = "position: relative; left: -32px;"> <a id = "texto"> Quimica </a> </td>
+					<td id ="espacios3" style = "position: relative; left: -34px;"> <a id = "texto"> Fisica </a> </td>
+					<td id ="espacios3" style = "position: relative; left: -36px;"> <a id = "texto"> Ingles </a> </td>
+				</tr>
+
+			  <tr style = "position: relative; top: -11px; left: 30px;">
+					<td id ="espacios2" style = "position: relative; left: -22px;"> <a id = "texto"> 40 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -24px;"> <a id = "texto"> 40 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -26px;"> <a id = "texto"> 30 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -28px;"> <a id = "texto"> 30 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -30px;"> <a id = "texto"> 0 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -32px;"> <a id = "texto"> 0 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -34px;"> <a id = "texto"> 30 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -36px;"> <a id = "texto"> 0 </a> </td>
+			 </tr>
+
+			</table>
+		</section>
+		<!-- FIN tabla numero 3 -->
+
+		<!-- tabla numero 4 -->
+		<section id = "tablaAspGen2" style = "position: relative; top: -650px; left: 369px; ">
+			<table>
+				<tr>
+					<br>
+		        <center> <a id = "texto2"> Porcentajes de Ponderación antes del periodo B de 2014 </a> </center>
+					</br>
+				</tr>
+
+				<tr style = "position: relative; top: -12px; left: 30px;">
+					<td id ="espacios3" style = "position: relative; left:  -22px"> <a id = "texto"> Lenguaje </a> </td>
+					<td id ="espacios3" style = "position: relative; left: -24px;"> <a id = "texto">  Matemáticas </a> </td>
+					<td id ="espacios3" style = "position: relative; left: -26px;"> <a id = "texto"> Sociales </a> </td>
+					<td id ="espacios3" style = "position: relative; left: -28px;"> <a id = "texto"> Filosofía </a> </td>
+				  <td id ="espacios3" style = "position: relative; left: -30px;"> <a id = "texto"> Biología </a> </td>
+					<td id ="espacios3" style = "position: relative; left: -32px;"> <a id = "texto"> Quimica </a> </td>
+					<td id ="espacios3" style = "position: relative; left: -34px;"> <a id = "texto"> Fisica </a> </td>
+					<td id ="espacios3" style = "position: relative; left: -36px;"> <a id = "texto"> Ingles </a> </td>
+				</tr>
+
+			  <tr style = "position: relative; top: -12px; left: 30px;">
+			 		<td id ="espacios2" style = "position: relative; left: -22px;"> <a id = "texto"> 40 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -24px;"> <a id = "texto"> 40 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -26px;"> <a id = "texto"> 30 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -28px;"> <a id = "texto"> 30 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -30px;"> <a id = "texto"> 0 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -32px;"> <a id = "texto"> 0 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -34px;"> <a id = "texto"> 30 </a> </td>
+			 		<td id ="espacios2" style = "position: relative; left: -36px;"> <a id = "texto"> 0 </a> </td>
+			 </tr>
+
+
+		</tr>
+
+
+	</table>
+</section>
+<!-- FIN texto texto "condiciones para el ingreso" y tabla general-->
